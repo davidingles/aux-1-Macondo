@@ -8,7 +8,7 @@ import { useGLTF } from "@react-three/drei";
 export function Dav(props) {
   const { nodes, materials } = useGLTF("/3D MACONDO.gltf");
   return (
-    <group {...props} dispose={null} scale={1} position={[0, 0, 0]}>
+    <group {...props} dispose={null} scale={.71} position={[0, .11, 0]}>
       <group position={[0, 0.049, 0]}>
         <mesh
           castShadow
